@@ -1,12 +1,10 @@
 {
-  "project_name": "ClickCLI",
+  "project_name": "pycli_project",
   "package_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
   "cli_name": "{{ cookiecutter.package_name }}",
   "project_version": "0.0.1",
   "project_description": "This is my click command-line app project.",
   "python_version": [
-    "3.6",
-    "3.7",
     "3.8"
   ],
   "virtualenv": [

@@ -3,7 +3,7 @@
 
 """
 .. currentmodule:: pre_gen_project
-.. moduleauthor:: Pat Daburu <pat@daburu.net>
+.. moduleauthor:: Bit-a-Bit <hola@bit-a-bit.info>
 
 This is the script that runs before template generation.
 """

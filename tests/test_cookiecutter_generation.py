@@ -11,13 +11,14 @@ RE_OBJ = re.compile(PATTERN)
 
 @pytest.fixture
 def context():
+    """Context of the cookie"""
     return {
         "project_name": "my_click_project",
         "package_name": "click_project",
         "cli_name": "click_project",
         "project_version": "0.0.1",
         "project_description": "A click command-line app.",
-        "python_version": "3.6",
+        "python_version": "3.8",
         "sphinx_theme": "alabaster",
         "author_name": "my_name",
         "author_email": "my_email@gmail.com",
